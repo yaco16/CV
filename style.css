@@ -1,0 +1,147 @@
+body {
+    font-family: 'Open Sans', sans-serif;    box-sizing: border-box;
+    display: flex;
+    margin: 1em;
+    line-height: 1.3;
+
+}
+
+.colonne_gauche {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.colonne_droite {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/*COLONNE GAUCHE*/
+
+.bandeau_grand,
+.bandeau_petit,
+.photo,
+.main_gauche {
+    background-color: #3E9397;
+}
+
+.bandeau_grand {
+    height: 5vh;
+}
+
+.bandeau_petit {
+    background-color: #AED4D5;
+    height: 1vh;
+}
+
+.nom {
+    margin-left: 0.1em;
+    background-color: white;
+    opacity: 0.7;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.photo {
+    height: 25vh;
+    background-image: url(/images/dexter.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main_gauche {
+    height: auto;
+    padding: 0 1em 1em 1em;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.rubrique {
+    font-size: 0.9rem;;
+    font-weight: bold;
+    padding-top: 1em;
+}
+
+h1 {
+    padding-top: 1em;
+    padding-bottom: 0.2em;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #9BDADE;
+}
+
+.section2 ul {
+padding-top: 0.5em;
+}
+
+.section2 li {
+
+}
+/*COLONNE DROITE*/
+
+
+
+.colonne_droite {
+    padding: 1.5em;
+    font-size: 0.9rem;
+}
+
+.bandeau_blanc {
+    height: 10vh;
+    background-color: white;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-top: 1em;
+    padding-bottom: 0.2em;
+    border-bottom: 2px solid #D7D7D7;
+}
+
+.fonction {
+    font-weight: 900;
+    margin-left: 1em;
+}
+
+.employeur {
+    font-weight: bold;
+    color: #92C8BF;
+    padding-bottom: 0.5em;
+    margin-left: 1em;
+}
+
+.profil p {
+    font-size: 0.9rem;
+    padding-top: 0.5em;
+}
+
+
+.exp {
+    display: flex;
+    padding-top: 1em;
+}
+
+.exp li {
+    list-style-type: disc;    
+    margin-left: 2.3em;
+}
+
+.date {
+    width: 20%;
+    color: #D7D7D7;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.formations {
+}
+
+.references {
+
+}
